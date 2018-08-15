@@ -14,6 +14,7 @@ function searchIt() {
 			var url = "https://uk.ask.com/web?q=";
 			document.location.href = url+text;
 		} else {
+		document.getElementById('errorSystem').innerHTML=" ";
 		document.getElementById('errorText').innerHTML="Необходимо выбрать поисковую систему"; 
 	}
 } else {
